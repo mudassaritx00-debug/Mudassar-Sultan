@@ -79,7 +79,7 @@ body:before{
             rgba(0,0,0,.60),
             rgba(0,0,0,.60)
         ),
-        url("profile.jpg");
+        url("profile.jpeg");
 
     background-size:cover;
     background-position:center;
