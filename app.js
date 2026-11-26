@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
       card.className = "media-card";
       card.innerHTML = `
         <img src="images/photo${i}.jpg" alt="Mudassar photo ${i}"
-             onerror="this.parentElement.classList.add('missing')">
+             onerror="if(!this.dataset.tried){this.dataset.tried=1;this.src='images/photo${i}.jpeg'}else{this.parentElement.classList.add('missing')}">
         <span>Photo ${i}</span>`;
       photoGrid.appendChild(card);
     }
