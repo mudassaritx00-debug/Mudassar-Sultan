@@ -5,7 +5,7 @@ Files:
 - index.html
 - style.css
 - app.js
-- images/profile.jpg
+- images/profile.jpeg
 - images/photo1.jpg ... photo20.jpg
 - videos/video1.mp4 ... video20.mp4
 
